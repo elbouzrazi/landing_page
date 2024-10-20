@@ -1,0 +1,47 @@
+<div class="competencies-container">
+  <h5 class="competencies-title">COMPETENCIES</h5>
+  <h1 class="competencies-heading">Fully trained and certified IT <br>engineers</h1>
+  <p class="competencies-description">
+    At CatWaveNetworks, our engineering team is at the forefront of innovation, specializing in technologies offered by industry leaders in the IT realm.
+  </p>
+  <div class="competencies-logos">
+    <div class="logo-row">
+      <img src="assets/icons/hpe-aruba-networking-logo.svg" alt="HPE Aruba" class="competency-logo" />
+      <img src="assets/icons/Logo-ekahau.png" alt="Ekahau Wireless Design" class="competency-logo" />
+      <img src="assets/icons/cwnp.png" alt="CWNP" class="competency-logo" />
+      <img src="assets/icons/cisco.png" alt="Cisco" class="competency-logo" />
+    </div>
+    <div class="logo-row second-row">
+      <img src="assets/icons/fortinet2.png" alt="Fortinet" class="competency-logo img-2" />
+      <img src="assets/icons/paloalto2.png" alt="Palo Alto Networks" class="competency-logo img-2" />
+    </div>
+  </div>
+</div>
+
+
+<div class="faq-section">
+  <h5 class="faq-title">FAQS</h5>
+  <h1 class="faq-heading">We have answers for your <br>questions</h1>
+  <ul class="faq-list">
+    <li class="faq-item" [class.open]="isItemOpen(1)">
+      <h3 class="faq-question" (click)="toggleAnswer(1)">What is CatWaveNetworks's core expertise in networking solutions?</h3>
+      <p class="faq-answer" [class.hidden]="!isAnswerVisible(1)">
+        Our primary focus lies in WiFi design, deployment, and support, making us specialists in creating seamless and robust wireless networks. We excel in optimizing WiFi systems for superior performance, ensuring reliable connectivity for businesses of all sizes. Additionally, our team holds expertise in HPE Aruba networking solutions, with Aruba Networks Expert certifications that guarantee top-tier proficiency in deploying and managing Aruba's cutting-edge technologies. Beyond WiFi, our capabilities extend to switching, SD-WAN, and edge firewalling, providing comprehensive solutions to optimize and secure your entire network infrastructure. With CatWaveNetworks, you can trust in our depth of knowledge and hands-on experience to elevate your network to new heights.
+      </p>
+    </li>
+    <li class="faq-item" [class.open]="isItemOpen(2)">
+      <h3 class="faq-question" (click)="toggleAnswer(2)">How does CatWaveNetworks engage with clients, and where is the primary focus of your services?</h3>
+      <p class="faq-answer" [class.hidden]="!isAnswerVisible(2)">
+        At CatWaveNetworks, our commitment to our clients knows no borders. While our customer base extends worldwide, we place a particular emphasis on catering to the needs of our valued clients in the United States. Leveraging advancements in technology, we have successfully delivered a significant portion of our services remotely for over 8 years. Our extensive experience in providing remote solutions ensures that our clients, no matter where they are located, receive the same high-quality service and expertise. Distance is not a barrier when it comes to optimizing and securing your network with CatWaveNetworks.
+      </p>
+    </li>
+    <li class="faq-item" [class.open]="isItemOpen(3)">
+      <h3 class="faq-question" (click)="toggleAnswer(3)">What sets CatWaveNetworks's services apart from others in the market?</h3>
+      <p class="faq-answer" [class.hidden]="!isAnswerVisible(3)">
+        At CatWaveNetworks, our distinctive edge lies in the flexibility of delivering our services. We understand that every business has unique needs, and our agile approach ensures tailor-made solutions. This flexibility extends to our pricing structure, making it highly competitive. Our commitment is to provide our customers with not just cost-effective solutions but a high level of expertise.
+      </p>
+    </li>
+  </ul>
+
+</div>
+

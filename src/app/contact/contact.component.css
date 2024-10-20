@@ -1,0 +1,139 @@
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 80px 60px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  width: 45%;
+  background-color: #f6f6f6;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.location{
+  padding-bottom: 10px;
+}
+
+.contact-info h2, .contact-info h3 {
+  font-size: 22px;
+  font-weight: bolder;
+  color: #1f1f1f;
+  text-transform: uppercase;
+  font-family: "Arial Black";
+  padding-top: 10px;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  color: #007bff;
+}
+
+.contact-info p {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.contact-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+
+.contact-illustration {
+  width: 40%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-illustration h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contact-illustration img {
+  width: 80%;
+  height: auto;
+  border-radius: 12px;
+  margin-top: 10px;
+}
+
+
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0 0 20px 0;
+  }
+
+  .contact-illustration {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin: 0 auto;
+  }
+
+  .contact-info h2, .contact-info h3, .contact-info h4 {
+    font-size: 20px;
+  }
+
+  .contact-illustration img {
+    margin-top: 20px;
+    width: 60%;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 10px;
+    box-sizing: border-box;
+  }
+
+  .contact-info {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0 0 15px 0;
+  }
+
+  .contact-info h2, .contact-info h3, .contact-info h4 {
+    font-size: 18px;
+  }
+
+  .contact-info p, .contact-info a {
+    font-size: 14px;
+  }
+
+  .contact-illustration img {
+    margin-top: 15px;
+  }
+}
+

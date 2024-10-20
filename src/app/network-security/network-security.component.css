@@ -1,0 +1,73 @@
+.wifi-technologies {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #333333;
+  border-radius: 12px;
+  position: relative;
+}
+
+.wifi-text {
+  width: 55%;
+}
+
+.wifi-text h2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.wifi-text p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.wifi-services {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+}
+
+.services-list, .vendor-list {
+  margin-bottom: 20px;
+}
+
+.services-list h3, .vendor-list h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2980b9; /* Accent color */
+  margin-bottom: 10px;
+}
+
+.services-list ul, .vendor-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.services-list ul li, .vendor-list ul li {
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.services-list ul li:before, .vendor-list ul li:before {
+  content: "✔";
+  color: #2980b9;
+  margin-right: 8px;
+}
+
+
+.wifi-technologies:before {
+  content: '';
+  position: absolute;
+  left:60%;
+  top: 30px;
+  bottom: 50px;
+  width: 1px;
+  background-color: #cccccc;
+}
